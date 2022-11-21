@@ -4,95 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3a955b-b85a-4c98-87fe-05a54568be0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/duckduckgosearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/hotel-account-creation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/hotel-account-edit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/shop-user-edit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/main/java/SeleniumCourse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/hotel/HotelAccountCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/hotel/HotelPageObjectSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/hotel/HotelSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/shop/ChangeUserInfoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/UserInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelAuthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelMyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelMyAddressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelNewAddressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelRegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/page/hotel/HotelRoomsListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber Framework/target/classes/SeleniumCourse/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/.idea/cucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/features/duckduckgosearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/features/hotel account creation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/features/hotel-account-edit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/cucumber/features/shop-user-edit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/cucumber/HotelAccountCreationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/cucumber/HotelAccountCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/HotelAuthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/HotelMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/HotelMyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/HotelRegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/HotelRoomsListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/page/MystoreLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/tests/HotelRegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/tests/HotelReservationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/tests/HotelSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/java/pl/coderslab/tests/MystoreLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/resources/Gherkin exercises.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/PracaDomowa/Zadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/PracaDomowa/Zadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/PracaDomowa/Zadanie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/PracaDomowa/Zadanie4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/GoogleSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/MainByClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/MainByCssSelektor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/MainById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/MainByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/MainByXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/Zadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/java/TaskCheckConfig/Zadanie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumCourse/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumCourse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/MystoreAccountEditSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreAddressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreAuthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMyaccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreNewAddressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MystoreAccountEditTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-    </list>
+    <list default="true" id="db3a955b-b85a-4c98-87fe-05a54568be0c" name="Changes" comment="Warsztaty Selenium Webdriver/Cucumber zadanie 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +32,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Dell/OneDrive/Desktop/Kurs tester automatyzujący/Warsztaty Selenium WebDriver_Cucumber/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -172,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668718175442</updated>
     </task>
+    <task id="LOCAL-00001" summary="Warsztaty Selenium Webdriver/Cucumber zadanie 1">
+      <created>1669034950303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669034950304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Warsztaty Selenium Webdriver/Cucumber zadanie 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztaty Selenium Webdriver/Cucumber zadanie 1" />
   </component>
 </project>
