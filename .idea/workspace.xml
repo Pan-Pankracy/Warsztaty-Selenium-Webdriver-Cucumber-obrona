@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3a955b-b85a-4c98-87fe-05a54568be0c" name="Changes" comment="Warsztaty Selenium Webdriver/Cucumber zadanie 1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreCheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreSearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MystoreOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMyaccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMyaccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectpages/MystoreNewAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreNewAddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MystoreAccountEditTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MystoreAccountEditTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="db3a955b-b85a-4c98-87fe-05a54568be0c" name="Changes" comment="Warsztaty Selenium Webdriver/Cucumber zadanie 1 zaktualizowane + zadanie 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,21 +24,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HgsgOkoWoIWEpmzVg3TVVUIQsY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/OneDrive/Desktop/Kurs tester automatyzujący/Warsztaty Selenium WebDriver_Cucumber/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Dell/OneDrive/Desktop/Kurs tester automatyzujący/Warsztaty Selenium WebDriver_Cucumber/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\OneDrive\Desktop\Kurs tester automatyzujący\Warsztaty Selenium WebDriver_Cucumber\src\main\resources" />
@@ -168,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669034950304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Warsztaty Selenium Webdriver/Cucumber zadanie 1 zaktualizowane + zadanie 2">
+      <created>1669390018560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669390018560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,8 +179,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Warsztaty Selenium Webdriver/Cucumber zadanie 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Warsztaty Selenium Webdriver/Cucumber zadanie 1" />
+    <MESSAGE value="Warsztaty Selenium Webdriver/Cucumber zadanie 1 zaktualizowane + zadanie 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warsztaty Selenium Webdriver/Cucumber zadanie 1 zaktualizowane + zadanie 2" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
