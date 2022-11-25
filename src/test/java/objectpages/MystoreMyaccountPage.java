@@ -7,10 +7,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MystoreMyaccountPage {
 
-   private WebDriver driver;
+    private WebDriver driver;
 
-   @FindBy(id="addresses-link")
+    @FindBy(id = "addresses-link")
     private WebElement addressesBtn;
+
+    @FindBy(name = "s")
+    private WebElement searchField;
+
+    @FindBy(xpath = "//button[@type = 'submit']")
+    private WebElement searchSubmit;
 
     public MystoreMyaccountPage(WebDriver driver) {
         this.driver = driver;
@@ -22,7 +28,16 @@ public class MystoreMyaccountPage {
         return new MystoreAddressesPage(driver);
     }
 
+    public MystoreMyaccountPage searchItem(String item) {
 
-
+        searchField.click();
+        searchField.clear();
+        searchField.sendKeys(item);
+        searchSubmit.click();
+        return new MystoreMyaccountPage(driver);
     }
+
+
+
+}
 

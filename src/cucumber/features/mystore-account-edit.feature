@@ -23,6 +23,6 @@ Feature: User account details edit
     Examples:
       | alias | address      | city    | zip/postal code | phone     |
       | Joshi | Short street | Norfolk | 11111           | 111111111 |
-      | Joshy | Longstreet   | Norfolk | 55555           | 999888777 |
+      | Joshy | Long street  | Norfolk | 55555           | 999888777 |
 
 

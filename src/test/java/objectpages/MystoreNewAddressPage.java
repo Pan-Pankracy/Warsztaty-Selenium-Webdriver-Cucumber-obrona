@@ -51,7 +51,7 @@ public class MystoreNewAddressPage {
         cityInput.sendKeys(city);
 
         zipPostalCodeInput.clear();
-        zipPostalCodeInput.sendKeys(String.valueOf(zipPostalCode);
+        zipPostalCodeInput.sendKeys(String.valueOf(zipPostalCode));
 
         phoneInput.clear();
         phoneInput.sendKeys(String.valueOf(phone));
