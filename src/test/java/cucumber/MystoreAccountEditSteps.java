@@ -4,11 +4,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import objectpages.MystoreAddressesPage;
-import objectpages.MystoreAuthPage;
-import objectpages.MystoreMyaccountPage;
-import objectpages.MystoreNewAddressPage;
+import objectpages.*;
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,28 +14,39 @@ public class MystoreAccountEditSteps {
 
     private MystoreNewAddressPage mystoreNewAddressPage;
     private MystoreAddressesPage mystoreAddressesPage;
-    WebDriver driver;
+    private WebDriver driver;
 
-    @Given("^I'm on the mystore main page$")
+    @Given("I'm on the mystore main page")
     public void openMainPageInBrowser() {
-        System.setProperty("web-driver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
-        this.driver = new ChromeDriver();
-        this.driver.get("https://mystore-testlab.coderslab.pl/index.php");
-
+        try {
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+            this.driver = new ChromeDriver();
+            this.driver.get("https://mystore-testlab.coderslab.pl/index.php");
+        } catch(java.lang.StackOverflowError e1) {
+            e1.printStackTrace();
+        }
     }
 
-    @When("^I go to the signin page$")
-    public void signIn() {
-        signIn();
+    @When("I go to the signin page")
+    public void signInOnMainPage () {
+        try {
+            driver.findElement(By.cssSelector(".user_login.navigation-link")).click();
+        } catch(java.lang.StackOverflowError e1) {
+            e1.printStackTrace();
+        }
+
+
+       /* MystoreMainPage mainPage = new MystoreMainPage(driver);
+        mainPage.signIn();*/
     }
 
-    @And("^I sign in with my credentials$")
+    @And("I sign in with my credentials")
     public void signInWithCredentials() {
         MystoreAuthPage mystoreAuthPage = new MystoreAuthPage(driver);
         mystoreAuthPage.signInWithCredentials("cngrbqzorrkigyrozf@tmmcv.com", "TestPass22");
     }
 
-    @And("^I click on \"ADDRESSES\" card$")
+    @And("I click on \"ADDRESSES\" card")
     public void goToAddressesPage() {
         MystoreMyaccountPage mystoreMyaccountPage = new MystoreMyaccountPage(driver);
         mystoreMyaccountPage.enterAddressesPage();
@@ -66,7 +75,6 @@ public class MystoreAccountEditSteps {
         String addressAsText = mystoreAddressesPage.getAddressAsText();
         String expectedAddress = String.join(alias.toUpperCase(), address, postalCode, city, phoneNumber);
         Assertions.assertEquals(expectedAddress, addressAsText);
-
     }
 
 

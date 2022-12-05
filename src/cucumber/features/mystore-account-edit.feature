@@ -1,6 +1,6 @@
 Feature: User account details edit
 
-  Scenario: User creates new address on his account
+  Scenario: User adds first address to the account
     Given I'm on the mystore main page
     When I go to the signin page
     And I sign in with my credentials

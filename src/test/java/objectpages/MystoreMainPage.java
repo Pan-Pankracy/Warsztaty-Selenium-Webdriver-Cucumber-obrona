@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MystoreMainPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
-    @FindBy(xpath = "//a[@title='Log in to your customer account']")
+    @FindBy(css = ".user_login.navigation-link")
     private WebElement signInBtn;
 
     public MystoreMainPage(WebDriver driver) {
@@ -18,7 +18,6 @@ public class MystoreMainPage {
     }
 
     public void signIn() {
-
         signInBtn.click();
     }
 
