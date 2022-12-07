@@ -27,7 +27,7 @@ public class MystoreOrderTest {
 
     @BeforeEach
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
@@ -53,7 +53,6 @@ public class MystoreOrderTest {
         shoppingCart.proceedToCheckout();
         MystoreCheckoutPage checkoutPage = new MystoreCheckoutPage(driver);
         checkoutPage.orderItem();
-
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshot, new File(".//screenshots/" + screenshotFileName + ".png"));

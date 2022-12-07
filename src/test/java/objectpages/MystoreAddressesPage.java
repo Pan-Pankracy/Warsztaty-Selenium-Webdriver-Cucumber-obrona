@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MystoreAddressesPage {
@@ -18,12 +19,17 @@ public class MystoreAddressesPage {
     @FindBy(xpath = "//article[@class = 'address']")
     private WebElement newAddress;
 
-    @FindBy(id = "main")
-    private List <WebElement> addresses;
+    @FindBy(className = "address-body")
+    private List<WebElement> addresses;
 
     public MystoreAddressesPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+
+    public MystoreNewAddressPage addNewAddress() {
+        createNewAddressBtn.click();
+        return new MystoreNewAddressPage(driver);
     }
 
     public boolean newAddressIsVisible() {
@@ -35,13 +41,10 @@ public class MystoreAddressesPage {
     }
 
     public String getAddressAsText() {
-        WebElement address = addresses.get(0);
-        String addressDetails = address.findElement(By.xpath("//html/body/main/section/div/div/section/section/div[2]/article/div[1]")).getText();
-        return addressDetails;
+        WebElement address = addresses.get(addresses.size() - 1);
+        String[] addressDetails = address.getText().split("\n");
+        return Arrays.toString(addressDetails);
     }
-
-
-
 
 
 }

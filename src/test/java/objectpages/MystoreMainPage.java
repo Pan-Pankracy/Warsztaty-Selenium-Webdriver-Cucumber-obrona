@@ -9,7 +9,7 @@ public class MystoreMainPage {
 
     private final WebDriver driver;
 
-    @FindBy(css = ".user_login.navigation-link")
+    @FindBy(css = "div.user-info>a")
     private WebElement signInBtn;
 
     public MystoreMainPage(WebDriver driver) {
@@ -25,8 +25,6 @@ public class MystoreMainPage {
         signIn();
         return new MystoreAuthPage(driver);
     }
-
-
 
 
 }

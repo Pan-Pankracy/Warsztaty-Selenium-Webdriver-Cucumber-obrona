@@ -7,17 +7,10 @@
     <list default="true" id="db3a955b-b85a-4c98-87fe-05a54568be0c" name="Changes" comment="Warsztaty Selenium Webdriver/Cucumber zadanie 1 zaktualizowane + zadanie 2">
       <change afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Page-Object-Pattern/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/duckduckgosearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber Framework/src/cucumber/features/duckduckgosearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber Framework/src/test/java/pl/coderslab/cucumber/DuckDuckGoSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/MystoreAccountEditSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/MystoreAccountEditSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objectpages/MystoreMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MystoreOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MystoreOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,26 +62,7 @@
       <recent name="C:\Users\Dell\OneDrive\Desktop\Kurs tester automatyzujący\Warsztaty Selenium WebDriver_Cucumber\src\main\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User adds first address to the account">
-    <configuration name="Feature: mystore-account-edit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" />
-      <option name="GLUE" value="cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Warsztaty Selenium WebDriver_Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: mystore-account-edit" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MystoreOrderTest">
     <configuration name="Scenario: User adds first address to the account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/cucumber/features/mystore-account-edit.feature" />
@@ -128,6 +103,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MystoreAccountEditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Warsztaty Selenium WebDriver_Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MystoreAccountEditTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MystoreOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Warsztaty Selenium WebDriver_Cucumber" />
       <extension name="coverage">
@@ -143,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MystoreOrderTest.setup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="mystoreAccountEditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Warsztaty Selenium WebDriver_Cucumber" />
       <extension name="coverage">
         <pattern>
@@ -152,20 +142,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MystoreOrderTest" />
-      <option name="METHOD_NAME" value="setup" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.mystoreAccountEditTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MystoreOrderTest" />
+        <item itemvalue="JUnit.MystoreAccountEditTest" />
+        <item itemvalue="JUnit.mystoreAccountEditTest" />
         <item itemvalue="Cucumber Java.Scenario: User adds first address to the account" />
         <item itemvalue="Cucumber Java.Scenario: User creates new address on his account (1)" />
-        <item itemvalue="Cucumber Java.Feature: mystore-account-edit" />
-        <item itemvalue="JUnit.MystoreOrderTest" />
-        <item itemvalue="JUnit.MystoreOrderTest.setup" />
       </list>
     </recent_temporary>
   </component>

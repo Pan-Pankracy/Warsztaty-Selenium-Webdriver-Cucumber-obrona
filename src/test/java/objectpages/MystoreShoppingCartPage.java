@@ -9,7 +9,7 @@ public class MystoreShoppingCartPage {
 
     private WebDriver driver;
 
-    @FindBy(css = ".checkout .btn-primary")
+    @FindBy(css = "a.btn.btn-primary")
     private WebElement proceedToCheckoutBtn;
 
 

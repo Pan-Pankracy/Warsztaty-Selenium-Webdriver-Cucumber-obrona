@@ -10,12 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class MystoreAccountEditTest {
-
     @RunWith(Cucumber.class)
-    @CucumberOptions(features = "src/cucumber/features/mystore-account-edit.feature", plugin = {"pretty", "html:out"})
-    public class mystoreAccountEditTest {
+    @CucumberOptions(features = "src/cucumber/features/mystore-account-edit.feature", glue = {"cucumber"}, plugin = {"pretty", "html:out"})
+    public class MystoreAccountEditTest {
 
     }
 
-}
