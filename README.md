@@ -1,6 +1,7 @@
 MyStore Test Automation Project
 
 This project is designed to automate the testing of the MyStore website using Selenium WebDriver with Java, Cucumber, and Gherkin.
+
 Project Description
 
 This project logs into a MyStore account, navigates to the addresses section, creates a new address, fills in the address details, and verifies that the entered details are correct.
